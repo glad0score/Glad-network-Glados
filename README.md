@@ -1,6 +1,6 @@
 # Glad-network-Glados  
 
-                                           <h1>Glados</h1>
+                                           #GLADOS
                       *Official Repository  of the Glados Network*
 
 
