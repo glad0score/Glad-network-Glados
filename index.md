@@ -27,12 +27,12 @@ Paste the following into notepad.
 
 
 
-rpcuser=rpc_glad
+rpcuser=rpc_glad***
 rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2
 rpcallowip=127.0.0.1
 listen=1
 server=1
-addnode=node1.walletbuilders.com
+addnode=node1.walletbuilders.com***
 
 
 
