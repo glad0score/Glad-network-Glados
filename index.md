@@ -27,12 +27,14 @@ Paste the following into notepad:
 
 
 
- **rpcuser=rpc_glad
-   rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2
-   rpcallowip=127.0.0.1
-   listen=1
-   server=1
-   addnode=node1.walletbuilders.com**
+ **
+   ___rpcuser=rpc_glad
+   ___rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2
+   ___rpcallowip=127.0.0.1
+   ___listen=1
+   ___server=1
+   ___addnode=node1.walletbuilders.com
+   **
    
    
    
@@ -56,13 +58,19 @@ Paste the following into notepad:
 
 
 
-**@echo off
-set SCRIPT_PATH=%cd%
-cd %SCRIPT_PATH%
-echo Press [CTRL+C] to stop mining.
-:begin
- glad-cli.exe generate 1
-goto begin**
+**
+___@echo off
+___set SCRIPT_PATH=%cd%
+___cd %SCRIPT_PATH%
+___echo Press [CTRL+C] to stop mining.
+___:begin
+___glad-cli.exe generate 1
+___goto begin
+**
+
+
+
+Next going to wallet>setup>options>network , proxy :127.0.0.1 : port: 23599 
 
 
 
